@@ -1,0 +1,57 @@
+
+
+/* ==========================================================================
+   homepage
+   ========================================================================== */
+   body
+   {
+   background-color :#BEEFED ;
+   text-align:justify;
+
+   /* style text and color style */
+    }
+    /* ==========================================================================
+       page title==========
+       ========================================================================== */
+
+h1{
+  text-align: center;
+  font-family: cursive;
+  color: red;
+  font-weight: bold;
+}
+/* ==========================================================================
+   text under title==========
+   ========================================================================== */
+p{
+  text-align: center;
+  font-family: cursive;
+  color: blue;
+  font-weight: lighter;
+}
+    /* ==========================================================================
+       table
+       ========================================================================== */
+   table
+    {
+   /* tous les tableaux sous le même format encadrement simple */
+      border-width:1px;
+      border-style:solid;
+      border-color:black;
+      width:70%;
+      margin: auto;
+
+
+      }
+      /* ==========================================================================
+          column 's table
+         ========================================================================== */
+     td
+     /* format one line per column*/
+      {
+      border-width:1px;
+      border-style:solid;
+      border-color:black;
+      width:50%;
+      text-align: center;
+    }
