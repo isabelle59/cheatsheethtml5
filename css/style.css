@@ -1,27 +1,32 @@
 
 
 /* ==========================================================================
-   homepage
+   homepage & background
    ========================================================================== */
    body
    {
-
-   background-color :#BEEFED ;
-   text-align:justify;
-
+color:black;
+background-color:white;
+background-image:url(/home/isabelle/Pictures/fond3.jpg);
+text-align:center;
+}
    /* style text and color style */
+
     }
   /* ==========================================================================
        page title==========
        ========================================================================= */
 
-h1{
+h1
+{
   text-align: center;
   font-family: cursive;
   color: red;
   font-weight: bold;
 }
-h2{
+
+h2
+{
   text-align: center;
   font-family: cursive;
   color: black;
@@ -30,9 +35,11 @@ h2{
 /* ==========================================================================
    img
    ========================================================================== */
-img
 
-
+   p.center
+   {
+      margin: auto;
+   }
 
 /* ==========================================================================
    text under title==========
